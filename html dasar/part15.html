@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Summary HTML Dasar</title>
+   <style>
+      body {
+          font-family: Arial, sans-serif;
+          background-color: #f9f9f9;
+          padding: 20px;
+      }
+      h1, h2 {
+          color: #2c3e50;
+      }
+      table, form {
+          margin-top: 20px;
+      }
+      input[type="text"], input[type="password"] {
+          width: 200px;
+      }
+      textarea {
+          width: 300px;
+      }
+   </style>
+</head>
+<body>
+
+<!-- Judul Utama -->
+<h1>Belajar HTML Dasar</h1>
+<p>Ini <strong>adalah</strong> sebuah <em>paragraf</em></p>
+
+<!-- Tag Link -->
+<p>Saya sedang belajar HTML dari 
+<a href="https://www.duniailkom.com"  target="_blank">Duniailkom</a> 
+dan akan terbuka pada tab baru</p>
+
+<!-- Tag Gambar -->
+<img alt="Gambar Koala" src="koala.jpg" />
+
+<!-- Tag List -->
+<h2>Daftar Belanjaan</h2>
+<ol>
+   <li>Minyak Goreng</li>
+   <li>Sabun Mandi</li>
+   <li>Deterjen</li>
+   <li>Shampoo</li>
+   <li>Obat Nyamuk</li>
+</ol>
+
+<!-- Tag Tabel -->
+<table border="1">
+<tr>
+   <td>Baris 1, Kolom 1</td>
+   <td>Baris 1, Kolom 2</td>
+   <td>Baris 1, Kolom 3</td>
+</tr>
+<tr>
+   <td>Baris 2, Kolom 1</td>
+   <td>Baris 2, Kolom 2</td>
+   <td>Baris 2, Kolom 3</td>
+</tr>
+<tr>
+   <td>Baris 3, Kolom 1</td>
+   <td>Baris 3, Kolom 2</td>
+   <td>Baris 3, Kolom 3</td>
+</tr>
+<tr>
+   <td>Baris 4, Kolom 1</td>
+   <td>Baris 4, Kolom 2</td>
+   <td>Baris 4, Kolom 3</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- Tag Form -->
+<form action="finish.html" method="get">
+
+   Nama: <input type="text" name="nama" value="Nama Kamu" />
+   <br /><br />
+
+   Password: <input type="password" name="password" />
+   <br /><br />
+
+   Jenis Kelamin : 
+   <input type="radio" name="jenis_kelamin" value="laki-laki" checked/> Laki - Laki
+   <input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+   <br /><br />
+
+   Hobi: 
+   <input type="checkbox" name="hobi_baca" /> Membaca Buku
+   <input type="checkbox" name="hobi_nulis" checked /> Menulis
+   <input type="checkbox" name="hobi_mancing" /> Memancing
+   <br /><br />
+
+   Asal Kota:
+   <select name="asal_kota">
+     <option value="Kota Jakarta">Jakarta</option>
+     <option>Bandung</option>
+     <option value="Kota Semarang" selected>Semarang</option>
+   </select>
+   <br /><br />
+
+   Komentar Anda:
+   <textarea name="komentar" rows="5" cols="20">Silahkan katakan isi hati anda</textarea>
+   <br /><br />
+
+   <input type="submit" value="Mulai Proses!" />
+
+</form>
+
+</body>
+</html>

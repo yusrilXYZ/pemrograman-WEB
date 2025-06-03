@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Form Pendaftaran</title>
+</head>
+<body>
+<h2>Daftar Akun Baru</h2>
+<form action="daftar.php" method="post">
+   Nama Lengkap: <input type="text" name="nama_lengkap" required><br />
+   Email: <input type="email" name="email"><br />
+   Password: <input type="password" name="password" minlength="6"><br />
+   Ulangi Password: <input type="password" name="password_ulang"><br />
+   Jenis Kelamin: 
+   <input type="radio" name="jk" value="laki" checked>Laki-laki
+   <input type="radio" name="jk" value="perempuan">Perempuan<br />
+   <input type="submit" value="Daftar">
+</form>
+</body>
+</html>
