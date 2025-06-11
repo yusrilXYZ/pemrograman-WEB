@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Website Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Nama Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Saya</a></li>
+                <li><a href="contact.html" class="active">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="contact">
+        <div class="container">
+            <h2>Hubungi Yusril</h2>
+            <div class="contact-content">
+
+                <!-- Informasi Kontak -->
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <p>Email:    muh.yusril9695@gmail.com</p>
+                    <p>Telepon:  +62 852 1345 0732</p>
+                    <p>Lokasi:   Indonesia, Sulawesi Barat</p>
+
+                    <div class="social-media">
+                        <h3>Media Sosial</h3>
+                        <ul>
+                            <li><a href="https://www.instagram.com/muhammad_yusril732/"  target="_blank">Instagram</a></li>
+                            <li><a href="https://github.com/yusrilXYZ"  target="_blank">GitHub</a></li>
+                            <li><a href="https://wa.me/6285213450732"  target="_blank">WhatsApp</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Form Kontak -->
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contactForm" action="process_form.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer style="background-color: #f8f9fa; padding: 30px 0; text-align: center; font-family: Arial, sans-serif; border-top: 1px solid #ddd;">
+    <div>
+        <p><strong>Hubungi Saya:</strong></p>
+        <p style="margin-bottom: 20px;">
+            <a href="https://wa.me/6285213450732"  target="_blank" style="text-decoration: none; color: #25D366; margin: 0 10px;">
+                <img src="images/whatsapp.png" width="20" alt="WhatsApp"> WhatsApp
+            </a>
+            <a href="https://instagram.com/muhammad_yusril732"  target="_blank" style="text-decoration: none; color: #E1306C; margin: 0 10px;">
+                <img src="images/instagram.png" width="20" alt="Instagram"> Instagram
+            </a>
+            <a href="https://github.com/yusrilXYZ"  target="_blank" style="text-decoration: none; color: #333; margin: 0 10px;">
+                <img src="images/github.png" width="20" alt="GitHub"> GitHub
+            </a>
+        </p>
+    </div>
+
+    <!-- Hak Cipta -->
+    <div style="font-size: 0.9em; color: #666;">
+        <p>© 2025 Nama Anda. Hak Cipta Dilindungi Undang-undang.</p>
+        <p style="margin-top: 8px; font-size: 0.8em;">
+            Konten di situs ini tidak boleh direproduksi, disebarkan, atau dimodifikasi tanpa izin tertulis dari pemilik hak cipta.
+        </p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
